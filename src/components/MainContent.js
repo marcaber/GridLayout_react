@@ -1,9 +1,13 @@
 import React from "react";
+import ShiningText from "./ShiningText";
+import FancyLoader from "./FancyLoader";
 
 const MainContent = () => {
   return (
     <div className="main">
+      <FancyLoader />
       <h1>Main Content</h1>
+      <ShiningText/>
       <p style={{ fontSize: 12 }}>
         Th’art nesh thee nay lad soft lad wacken thi sen up t’foot o’ our
         stairs. Nay lad where’s tha bin. Th’art nesh thee a pint ‘o mild any
